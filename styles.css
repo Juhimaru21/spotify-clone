@@ -1,0 +1,106 @@
+body{
+background-color: antiquewhite;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+    font-family:monospace sans-serif;
+}
+nav ul{
+    color:white;
+    background-color:black;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    height:55px;
+}
+nav ul li{
+    padding:0px 10px;
+}
+.brand img{
+    height: 50px;
+    padding:4px 0px 2px 3px;
+
+}
+.brand{
+    font-family: CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif),sans-serif;
+    display:flex;
+    align-items:center;
+    font-weight:bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 72vh;
+    background-color:black;
+    color:white;
+    font-family: 'Varela round',sans-serif;
+    margin: 23px auto;
+    display:flex;
+    width:80%;
+    border-radius: 12px;
+    padding:30px;
+    background-image:url('arijit1.png');
+} 
+
+.songItemcontainer{
+    margin-top: 74px;
+}
+.songItem{
+    display:flex;
+    height:80px;
+    margin:12px 0;
+    justify-content:space-between;
+    align-items:center;
+    border-radius: 34px;
+    
+}
+.songItem img{
+    width:80px;
+    margin:0px  23px;
+
+    
+}
+.timestamp{
+    margin:0 23px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.bottom{
+    background-color: black;
+    color:white;
+    position:sticky;
+    height:110px;
+    display:flex;
+    justify-content: center;
+    text-align:center;
+    flex-direction: column;
+    
+}
+
+
+#progression{
+    width:80vw;
+    margin-top:20px;
+    align-self: center;
+    cursor: pointer;
+}
+.icon{
+    margin-top:25px;
+}
+.icon i{
+    cursor:pointer;
+}
+.songInfo{
+    position: absolute;
+    left:10vw;
+    font-family: 'Varela round',sans-serif;
+
+}
+.songInfo img{
+    opacity:0;
+    transition:opacity 0.3s ease-in;
+}
